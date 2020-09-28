@@ -1,7 +1,7 @@
 # codeloverleader.github.io
 计算机图形学
 lab0
-</image src="p201812213501026.png">
+<a href="p201812213501026.png">image</a>
 
 Lab1			
 
