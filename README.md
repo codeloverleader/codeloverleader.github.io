@@ -1,7 +1,7 @@
 # codeloverleader.github.io
 计算机图形学
-
-<a href="index.html" target="_blank">首页Lab0</a>
+lab0
+</image src="p201812213501026.png">
 
 Lab1			
 
