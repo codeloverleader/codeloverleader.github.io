@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>lab2</title>
+    <script id="vertex-shader" type="x-shader/x-vertex">
+	attribute vec4 vPosition;
+	void main(){
+		gl_Position = vPosition;
+	}
+	</script>
+
+    <script id="fragment-shader" type="x-shader/x-fragment">
+	precision mediump float;
+	void main(){
+		gl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );
+	}
+	</script>
+
+    <script type="text/javascript" src="../js/common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../js/common/initShaders.js"></script>
+    <script type="text/javascript" src="../js/common/gl-matrix-min.js"></script>
+	<script type="text/javascript" src="../js/ch02/gasket-triangles.js"></script>
+</head>
+
+<body>
+    <h2>Sierpinski Gasket in 2D</h2>
+    <canvas id="gl-canvas" width="512" height="512">你的浏览器不支持HTML5 canvas元素</canvas>
+	<form>  
+		<select>
+			<option value ="2D">2D</option>
+			<option value ="3D">3D</option>
+		</select>
+		<select id="a" onchange="selects();initTriangles()">
+		  <optgroup label="--剖分层次--">
+					<option value ="0">0</option>
+					<option value ="1">1</option>									
+					<option value ="2">2</option>
+					<option value ="3">3</option>	
+					<option value ="4">4</option>
+					<option value ="5">5</option>									
+					<option value ="6">6</option>
+					<option value ="7">7</option>					 
+	    </select>
+	</form>
+	<p>老师JS部分实在难做出来，实验都是分开的，等之后搞好了再在Github上题交好的</p>
+</body>
+</html>
