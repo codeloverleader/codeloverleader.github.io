@@ -37,8 +37,8 @@
 	<th><a href="./test/lab06-2.html">Lab6b	</a>	</th>	 
   </tr>
   <tr>
-	<th><a href="./test/lab07-a.html">Lab3a	</a>	</th>
-	<th><a href="./test/lab07-b.html">Lab3b	</a>	</th>	 
+	<th><a href="./test/lab07-a.html">Lab7a	</a>	</th>
+	<th><a href="./test/lab07-b.html">Lab7b	</a>	</th>	 
   </tr>	
  </table>		
 
